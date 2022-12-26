@@ -1,0 +1,28 @@
+{
+  "intents": [{
+    "context": "",
+       "patterns": [
+         "hello", "Hi, there",
+         "Good morning",
+         "whats up"
+       ],
+        "responses": [
+          "Hey",
+          "hello",
+          "hi",
+          "good morning"
+        ],
+        "tag": "hello"
+  },
+
+    {"context": [" "],
+    "patterns": [],
+    "responses": ["Sorry, can't understand", "Not sure I understand","Please give me more Information"],
+    "tag": "no answer"},
+
+    {"context":  "",
+    "patterns": ["what is your job", "what is your work"],
+    "responses": ["am just a simple ai"],
+    "tag": "job"}
+
+]}
